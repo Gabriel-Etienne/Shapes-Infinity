@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55acf6011891301458a2c736f3dd2eb3, type: 3}
+  m_Name: FolderColorSettings_Perso_gabe8
+  m_EditorClassIdentifier: FolderColor.Editor::FolderColor.Editor.FolderColorDatabase
+  Mode: 1
+  UserId: 
+  IconEntries:
+  - Guid: 93a1a45754f73c14d929558fbf7f52ba
+    IconPath: MeshFolder.png
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  - Guid: e9c19f67edb7c7e4398ce9fa76f5930e
+    IconPath: SoundFolder.png
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  - Guid: 57438c39cdf82e548ac47bf00333316a
+    IconPath: TextureFolder.png
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  - Guid: b725c631b97184544830dfadd6476140
+    IconPath: ParameterFolder.png
+    IconColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  - Guid: 139517dd3e5e5b947b40115d6c0c2e78
+    IconPath: ParameterFolder.png
+    IconColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  - Guid: 16f9abb28f5b24746876251cabf84494
+    IconPath: CodeFolder.png
+    IconColor: {r: 0.09610971, g: 0.764151, b: 0, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  Entries: []
