@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a60bbca8-a1f2-469a-a80d-fcb80b0fbb80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Visual/CRT TV effect/Gameplay Scene/CRT TV Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Visual/CRT TV effect/Gameplay Scene/CRT TV Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay Scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +21,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="5856" />
+    <option name="cachedIndexableFilesCount" value="5872" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/Unity/Unity Projects/GitHub/Shapes-Infinity/JustShapeIncremental/Assets/Scripts/Test/TestIA.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade Tree/Editor/UpgradeTreeEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade Tree/UpgradeNodeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade Tree/UpgradePrerequisiteMode.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -121,6 +124,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "unity.profiler.toolWindow.autoShown": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -169,6 +173,7 @@
       <updated>1794121567404</updated>
       <workItem from="1794121569224" duration="538000" />
       <workItem from="1794129575470" duration="2406000" />
+      <workItem from="1794306282750" duration="14449000" />
     </task>
     <servers />
   </component>

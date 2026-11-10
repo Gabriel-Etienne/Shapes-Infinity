@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da146b4f964c5ee49bdbd89778d2fd17, type: 3}
+  m_Name: Attack Speed 1
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  upgradeID: 3
+  upgradeName: Attack Speed 1
+  description: + 10 % attack speed
+  icon: {fileID: 21300000, guid: d86a266ffcea241479c0717e64e70ad1, type: 3}
+  cost: 10
+  prerequisiteMode: 1
+  prerequisites:
+  - {fileID: 11400000, guid: 857f0706c65cefb45a26675c5a94db74, type: 2}

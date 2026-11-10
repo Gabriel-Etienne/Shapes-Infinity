@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cefdf6c0998b742b1c1223a0f49d69, type: 3}
+  m_Name: Test Tree
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeTreeData
+  nodes:
+  - upgrade: {fileID: 11400000, guid: 857f0706c65cefb45a26675c5a94db74, type: 2}
+    position: {x: 300, y: 300}
+  - upgrade: {fileID: 11400000, guid: b7c574c2f3de8e94eadf797d085241aa, type: 2}
+    position: {x: 1850, y: 800}
+  - upgrade: {fileID: 11400000, guid: 10990d7a699e16c4c9e3bf0527a6e7af, type: 2}
+    position: {x: 2200, y: 800}
+  - upgrade: {fileID: 11400000, guid: dcc8c731607ba304bb26933eafa2654b, type: 2}
+    position: {x: 1850, y: 1150}
+  - upgrade: {fileID: 11400000, guid: 339513004f58eb94489d8edb0e159b34, type: 2}
+    position: {x: 1850, y: 450}
+  - upgrade: {fileID: 11400000, guid: cf75703b98dcb2b439919f89e428855c, type: 2}
+    position: {x: 300, y: 100}
+  - upgrade: {fileID: 11400000, guid: bdb85c9ef83c07c4c8c21750ed55ee6c, type: 2}
+    position: {x: 1500, y: 100}
+  - upgrade: {fileID: 11400000, guid: 18bf542cb55ddc04fb689a63d563f7d8, type: 2}
+    position: {x: 1150, y: 450}
+  - upgrade: {fileID: 11400000, guid: ea582bb7900f5fe479d47f70fc0c8125, type: 2}
+    position: {x: 100, y: 300}
+  - upgrade: {fileID: 11400000, guid: d3c213a3794151745b1388426f5e427a, type: 2}
+    position: {x: 100, y: 800}
+  - upgrade: {fileID: 11400000, guid: e0bbf182b17fa964f97e2a40b23682bf, type: 2}
+    position: {x: 450, y: 450}
+  - upgrade: {fileID: 11400000, guid: 602d022f4ec748c45ba39af9f1a8d769, type: 2}
+    position: {x: 400, y: 760}
+  - upgrade: {fileID: 11400000, guid: aeeadc6c9390cba48837a7ea4800c382, type: 2}
+    position: {x: 300, y: 500}
+  - upgrade: {fileID: 11400000, guid: 46c72def6fac5034c9608a02afcd8ae1, type: 2}
+    position: {x: 1500, y: 1500}
+  - upgrade: {fileID: 11400000, guid: ccc6df45f9fbdcf42babc43115717e10, type: 2}
+    position: {x: 1150, y: 1150}
+  - upgrade: {fileID: 11400000, guid: 48312ca1b5c40eb47b4cd703cbaeb0d9, type: 2}
+    position: {x: 800, y: 450}
+  - upgrade: {fileID: 11400000, guid: 178fac921c08255498814d7573cd4b72, type: 2}
+    position: {x: 1150, y: 100}
+  - upgrade: {fileID: 11400000, guid: d53ee5c2b93f68446ac45311deb3e99b, type: 2}
+    position: {x: 1000, y: 540}
+  - upgrade: {fileID: 11400000, guid: a64583c7c1ebf9c4bb41785d94a9d052, type: 2}
+    position: {x: 450, y: 1150}
+  - upgrade: {fileID: 11400000, guid: 2c54995090a5d5b46a2491c7a74280d0, type: 2}
+    position: {x: 500, y: 300}
+  - upgrade: {fileID: 11400000, guid: 7fcb3763f8e27da4eb0e99ed31f3f056, type: 2}
+    position: {x: 700, y: 300}
