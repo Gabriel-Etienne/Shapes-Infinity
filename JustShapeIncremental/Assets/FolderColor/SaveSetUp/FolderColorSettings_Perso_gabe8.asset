@@ -45,4 +45,14 @@ MonoBehaviour:
     IconColor: {r: 0.09610971, g: 0.764151, b: 0, a: 1}
     HighlightName: 0
     HighlightChildren: 0
+  - Guid: 6037d6c996ee2374ca3e7af50e068134
+    IconPath: PrefabFolder.png
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
+  - Guid: e2b8de55eaa2ece439424eff66139cf5
+    IconPath: GroupedPackageFolder.png
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
   Entries: []
