@@ -1,3 +1,5 @@
+
+#if UNITY_EDITOR
 using FolderColor.Runtime;
 using UnityEditor;
 using UnityEngine;
@@ -79,3 +81,5 @@ namespace FolderColor.Editor
 		}
 	}
 }
+
+#endif

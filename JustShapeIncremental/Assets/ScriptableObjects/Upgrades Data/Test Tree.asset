@@ -55,3 +55,5 @@ MonoBehaviour:
     position: {x: 500, y: 300}
   - upgrade: {fileID: 11400000, guid: 7fcb3763f8e27da4eb0e99ed31f3f056, type: 2}
     position: {x: 700, y: 300}
+  - upgrade: {fileID: 11400000, guid: ea415cddac7d0d340ae32b2e6e1b100a, type: 2}
+    position: {x: 900, y: 300}
