@@ -12,8 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a60bbca8-a1f2-469a-a80d-fcb80b0fbb80" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Visual/CRT TV effect/Gameplay Scene/CRT TV Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Visual/CRT TV effect/Gameplay Scene/CRT TV Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Default Files/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Default Files/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Default Files/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Default Files/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +176,7 @@
       <updated>1794121567404</updated>
       <workItem from="1794121569224" duration="538000" />
       <workItem from="1794129575470" duration="2406000" />
-      <workItem from="1794306282750" duration="14449000" />
+      <workItem from="1794306282750" duration="15892000" />
     </task>
     <servers />
   </component>
