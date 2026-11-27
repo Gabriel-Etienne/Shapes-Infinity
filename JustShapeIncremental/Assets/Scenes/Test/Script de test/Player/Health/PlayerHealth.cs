@@ -65,8 +65,9 @@ public class PlayerHealth : MonoBehaviour
             return false;
         }
 
+        OnPlayerHit?.Invoke();
+        
         CurrentHealth = Mathf.Max(0f, CurrentHealth - damage);
-
         UpdateHealthVisual();
         OnHealthChanged?.Invoke(CurrentHealth, MaxHealth);
 
@@ -78,7 +79,6 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
-            OnPlayerHit?.Invoke();
             knockback.Apply(damageSourcePosition);
             invulnerability.StartInvulnerability();
         }

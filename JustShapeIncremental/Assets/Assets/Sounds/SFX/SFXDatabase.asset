@@ -34,3 +34,13 @@ MonoBehaviour:
         spatialBlend: 0
         minDistance: 1
         maxDistance: 20
+    - Key: 3
+      Value:
+        clip: {fileID: 8300000, guid: 30b809ec1f0fa324782dffa4e08c1f45, type: 3}
+        volume: 0.2
+        randomizePitch: 0
+        minPitch: 0.6
+        maxPitch: 1.2
+        spatialBlend: 0
+        minDistance: 1
+        maxDistance: 20

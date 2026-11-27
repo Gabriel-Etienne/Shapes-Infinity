@@ -3,11 +3,11 @@ public enum SFXType
     PlayerHit,
     PlayerDash,
     PlayerDeath,
+    SlowDownEffect,
 
     EnemyHit,
     EnemyDeath,
 
-    BulletImpact,
     ItemPickup,
     LevelUp,
 

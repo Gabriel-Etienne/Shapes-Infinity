@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 3114306846985940215}
   - component: {fileID: 7979459423533410455}
   - component: {fileID: 3351476355743309990}
+  - component: {fileID: 8489640806184013107}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -70,7 +71,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &4154860988133546475
 MonoBehaviour:
@@ -192,9 +193,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd12697cbd516d14aa7122ff5607864f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDamageFeedback
-  shakeDuration: 0.2
-  shakeMagnitude: 0.35
-  sfxType: 0
+  playerHitSFX: 0
+  hitShakeDuration: 0.2
+  hitShakeMagnitude: 0.35
+  deathShakeDuration: 1.75
+  deathShakeMagnitude: 0.75
 --- !u!114 &3351476355743309990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +213,21 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1704169056059976636}
   blinkInterval: 0.05
   blinkAlpha: 0.2
+--- !u!114 &8489640806184013107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950426005678099734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b8accb511718540bb253e52e00c02e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCameraBounds
+  rb: {fileID: 3367696630636142961}
+  playerCollider: {fileID: 5448063237775588472}
+  offset: {x: 0.25, y: 0.75}
 --- !u!1 &6256354819876215051
 GameObject:
   m_ObjectHideFlags: 0

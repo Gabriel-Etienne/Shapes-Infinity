@@ -30,7 +30,10 @@ public class GameManagerTemporaire : MonoBehaviour
 
     private IEnumerator RestartSceneCoroutine()
     {
-        yield return new WaitForSeconds(restartDelay);
+        yield return new WaitForSecondsRealtime(restartDelay);
+
+        // Réinitialisation du temps avant de recharger.
+        Time.timeScale = 1f;
 
         SceneManager.LoadScene(
             SceneManager.GetActiveScene().buildIndex

@@ -12,15 +12,84 @@
   <component name="ChangeListManager">
     <list default="true" id="a60bbca8-a1f2-469a-a80d-fcb80b0fbb80" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/SFXDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/SFXDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin/bitcade_coin_bell.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin/bitcade_coin_bell.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin/bitcade_coin_classic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin/bitcade_coin_classic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin/bitcade_coin_ring.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Coin/bitcade_coin_ring.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion/bitcade_explosion_big.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion/bitcade_explosion_big.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion/bitcade_explosion_crunch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion/bitcade_explosion_crunch.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion/bitcade_explosion_small.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Explosion/bitcade_explosion_small.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_defeated.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_defeated.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_hurt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_hurt.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_punch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_punch.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_sword.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Hit/bitcade_hit_sword.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle/bitcade_jingle_game_over.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle/bitcade_jingle_game_over.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle/bitcade_jingle_level_up.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle/bitcade_jingle_level_up.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle/bitcade_jingle_victory.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jingle/bitcade_jingle_victory.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_jump_classic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_jump_classic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_jump_double.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_jump_double.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_jump_spring.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_jump_spring.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_land_thud.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Jump/bitcade_land_thud.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser/bitcade_laser_blaster.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser/bitcade_laser_blaster.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser/bitcade_laser_charged.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser/bitcade_laser_charged.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser/bitcade_laser_pew.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Laser/bitcade_laser_pew.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic/bitcade_magic_sparkle.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic/bitcade_magic_sparkle.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic/bitcade_magic_spell.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic/bitcade_magic_spell.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic/bitcade_magic_teleport.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Magic/bitcade_magic_teleport.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up/bitcade_powerup_charge.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up/bitcade_powerup_charge.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up/bitcade_powerup_extra_life.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up/bitcade_powerup_extra_life.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up/bitcade_powerup_rise.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/Power-Up/bitcade_powerup_rise.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_back.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_back.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_confirm.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_confirm.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_error.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_error.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_select.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sounds/SFX/WAV/UI/bitcade_ui_select.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Basic/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Basic/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Demo Technique.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Demo Technique.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Bullet Test.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Bullet Test.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Zone Test.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Zone Test.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Général/enemy/DamageOnTrigger2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Général/enemy/DamageOnTrigger2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/CameraShakeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/CameraShakeTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/GameManagerTemporaire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/GameManagerTemporaire.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/Health/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/Health/PlayerHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/PlayerDamageFeedback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/PlayerDamageFeedback.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Bullet/BulletMovementTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Bullet/BulletMovementTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Zone/ZoneVisualTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Zone/ZoneVisualTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SFX/SFXType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SFX/SFXType.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +114,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.143597003267439E-17" />
-      <entry key="MS500" value="5.523996429039292E-4" />
-      <entry key="S2" value="0.15465198025998944" />
-      <entry key="S5" value="0.57791430667522" />
-      <entry key="S10" value="1.2785595641939957" />
-      <entry key="S30" value="3.3044168878395705" />
-      <entry key="S60" value="6.70588986756808" />
-      <entry key="M2" value="12.85681232578693" />
-      <entry key="M5" value="21.47770805011661" />
-      <entry key="M10" value="26.88871477865569" />
-      <entry key="M15" value="29.867918178971937" />
-      <entry key="M30" value="35.22463696775008" />
-      <entry key="H1" value="40.43936319066201" />
-      <entry key="H2" value="45.26867690388088" />
-      <entry key="H4" value="58.0408528910022" />
-      <entry key="D1" value="145.4887344392067" />
-      <entry key="W1" value="189.05243683999882" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000019522703" />
-      <entry key="S10" value="1.0000441845035533" />
-      <entry key="S30" value="1.035352760132298" />
-      <entry key="S60" value="1.1880233155957758" />
-      <entry key="M2" value="1.4337713830768852" />
-      <entry key="M5" value="1.7774294030629516" />
-      <entry key="M10" value="2.4212257685473246" />
-      <entry key="M15" value="3.137973629739931" />
-      <entry key="M30" value="4.663955271691892" />
-      <entry key="H1" value="6.0063927566825" />
-      <entry key="H2" value="6.904505052657187" />
-      <entry key="H4" value="7.425010740173308" />
-      <entry key="D1" value="7.900144705868365" />
-      <entry key="W1" value="7.985633124094692" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000000007" />
+      <entry key="S60" value="1.0000000996362988" />
+      <entry key="M2" value="1.0012626576458838" />
+      <entry key="M5" value="1.3748356300057702" />
+      <entry key="M10" value="3.802181667210841" />
+      <entry key="M15" value="6.915510408813352" />
+      <entry key="M30" value="15.85335096448188" />
+      <entry key="H1" value="31.939340622516465" />
+      <entry key="H2" value="53.937439787148996" />
+      <entry key="H4" value="80.32563892747297" />
+      <entry key="D1" value="186.9123841148434" />
+      <entry key="W1" value="240.73305388735037" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="6.282878360842483E-186" />
+      <entry key="S10" value="2.5065909743530278E-93" />
+      <entry key="S30" value="1.399287274456489E-31" />
+      <entry key="S60" value="4.767131046820602E-16" />
+      <entry key="M2" value="3.889120232370297E-8" />
+      <entry key="M5" value="0.0026923335301934186" />
+      <entry key="M10" value="0.11500883197526814" />
+      <entry key="M15" value="0.4057392082481679" />
+      <entry key="M30" value="1.54388222263018" />
+      <entry key="H1" value="3.6459084308257457" />
+      <entry key="H2" value="6.441838142072004" />
+      <entry key="H4" value="8.993720998459352" />
+      <entry key="D1" value="12.196653121003385" />
+      <entry key="W1" value="12.881335348263804" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.012516716837337842" />
-      <entry key="MS500" value="0.41652109636309764" />
-      <entry key="S2" value="0.9115306475762225" />
-      <entry key="S5" value="1.4177779203818954" />
-      <entry key="S10" value="2.1612097523934852" />
-      <entry key="S30" value="4.27651012939591" />
-      <entry key="S60" value="7.843855384651242" />
-      <entry key="M2" value="14.249671772930618" />
-      <entry key="M5" value="23.228466674009088" />
-      <entry key="M10" value="29.290418751334364" />
-      <entry key="M15" value="32.98939591725181" />
-      <entry key="M30" value="39.87702351362906" />
-      <entry key="H1" value="46.43857810711913" />
-      <entry key="H2" value="52.169130171359946" />
-      <entry key="H4" value="65.46369212696807" />
-      <entry key="D1" value="153.3884817768889" />
-      <entry key="W1" value="197.03801162741925" />
+      <entry key="MS100" value="0.8950250709279725" />
+      <entry key="MS500" value="0.9780634734473393" />
+      <entry key="S2" value="0.9944701686732144" />
+      <entry key="S5" value="0.9977843871238888" />
+      <entry key="S10" value="0.9988915792636801" />
+      <entry key="S30" value="0.999630389826378" />
+      <entry key="S60" value="0.9998152774576878" />
+      <entry key="M2" value="1.0011702030421135" />
+      <entry key="M5" value="1.3774557306329727" />
+      <entry key="M10" value="3.916597003232277" />
+      <entry key="M15" value="7.319926074972202" />
+      <entry key="M30" value="17.39468213449139" />
+      <entry key="H1" value="35.58198660663213" />
+      <entry key="H2" value="60.376210153357974" />
+      <entry key="H4" value="89.3171422819252" />
+      <entry key="D1" value="199.10850961493375" />
+      <entry key="W1" value="253.61430827023767" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -194,7 +263,7 @@
       <workItem from="1794306282750" duration="15892000" />
       <workItem from="1795693397256" duration="17802000" />
       <workItem from="1795769244723" duration="486000" />
-      <workItem from="1795770476231" duration="9782000" />
+      <workItem from="1795770476231" duration="17543000" />
     </task>
     <servers />
   </component>

@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class PlayerDamageFeedback : MonoBehaviour
 {
-    [Header("Screen Shake")]
+    [Header("Player Hit effect")]
     [SerializeField] private SFXType playerHitSFX = SFXType.PlayerHit;
     [SerializeField] private float hitShakeDuration = 0.2f;
     [SerializeField] private float hitShakeMagnitude = 0.2f;
     
-    [Header("Screen Shake")]
-    [SerializeField] private SFXType playerDeathSFX = SFXType.PlayerDeath;
+    [Header("Player Death effect")]
+    //[SerializeField] private SFXType playerDeathSFX = SFXType.PlayerDeath;
     [SerializeField] private float deathShakeDuration = 0.2f;
     [SerializeField] private float deathShakeMagnitude = 0.2f;
     
@@ -41,6 +41,6 @@ public class PlayerDamageFeedback : MonoBehaviour
             deathShakeMagnitude
         );
         
-        SFXManager.Instance?.Play(playerDeathSFX);
+        //SFXManager.Instance?.Play(playerDeathSFX);
     }
 }

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CameraShakeTest : MonoBehaviour
 {
-    [Header("Shake Settings")]
-    [SerializeField] private float defaultDuration = 0.2f;
+    [Header("Shake Settings")] [SerializeField]
+    private float defaultDuration = 0.2f;
+
     [SerializeField] private float defaultMagnitude = 0.15f;
 
     // Events statiques
@@ -69,7 +70,7 @@ public class CameraShakeTest : MonoBehaviour
             transform.localPosition = initialPosition +
                                       new Vector3(randomOffset.x, randomOffset.y, 0f);
 
-            timer += Time.deltaTime;
+            timer += Time.unscaledDeltaTime;
             yield return null;
         }
 
