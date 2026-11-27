@@ -1,6 +1,7 @@
+using System;
 using UnityEngine;
 
-public class BulletMovementTest : MonoBehaviour
+public class BulletMovementTest : MonoBehaviour , IPoolable
 {
     private Vector2 direction;
     private Vector2 center;
@@ -38,7 +39,7 @@ public class BulletMovementTest : MonoBehaviour
 
         // Déplacement
         transform.position +=
-            (Vector3)(direction * moveSpeed * Time.deltaTime);
+            (Vector3)(moveSpeed * Time.deltaTime * direction);
 
         // Distance par rapport au centre
         float distance = Vector2.Distance(
@@ -59,7 +60,7 @@ public class BulletMovementTest : MonoBehaviour
         }
     }
 
-    private void ReturnToPool()
+    public void ReturnToPool()
     {
         isInitialized = false;
         hasEnteredCircle = false;

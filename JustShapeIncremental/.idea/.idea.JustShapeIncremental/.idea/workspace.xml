@@ -12,11 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a60bbca8-a1f2-469a-a80d-fcb80b0fbb80" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JustShapeIncremental/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Default Files/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Default Files/Settings/UniversalRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Default Files/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Default Files/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Basic/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Basic/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Demo Technique.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Demo Technique.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Bullet Test.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Bullet Test.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Zone Test.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Prefab de test/Zone Test.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Général/enemy/DamageOnTrigger2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Général/enemy/DamageOnTrigger2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/Health/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/Health/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/PlayerDamageFeedback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Player/PlayerDamageFeedback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Bullet/BulletMovementTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Bullet/BulletMovementTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Zone/ZoneVisualTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Zone/ZoneVisualTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +28,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="5872" />
+    <option name="cachedIndexableFilesCount" value="201" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Général/enemy/DamageOnTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Test/Script de test/PlayerStateTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Test/Script de test/Spawner/Zone/ZonePoolTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade Tree/Editor/UpgradeTreeEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade Tree/UpgradeNodeData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade Tree/UpgradePrerequisiteMode.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -40,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000446139254318" />
-      <entry key="S2" value="1.5165783166051208" />
-      <entry key="S5" value="5.703984788349827" />
-      <entry key="S10" value="13.248642340474188" />
-      <entry key="S30" value="35.45355384706675" />
-      <entry key="S60" value="53.64322189639264" />
-      <entry key="M2" value="73.66385445687149" />
-      <entry key="M5" value="102.40732749088227" />
-      <entry key="M10" value="119.62687063795616" />
-      <entry key="M15" value="126.80837579680284" />
-      <entry key="M30" value="134.888978265623" />
-      <entry key="H1" value="139.3067424471192" />
-      <entry key="H2" value="141.61774696185412" />
-      <entry key="H4" value="142.79981438731517" />
-      <entry key="D1" value="143.7986976498525" />
-      <entry key="W1" value="143.97121121100724" />
+      <entry key="MS100" value="5.143597003267439E-17" />
+      <entry key="MS500" value="5.523996429039292E-4" />
+      <entry key="S2" value="0.15465198025998944" />
+      <entry key="S5" value="0.57791430667522" />
+      <entry key="S10" value="1.2785595641939957" />
+      <entry key="S30" value="3.3044168878395705" />
+      <entry key="S60" value="6.70588986756808" />
+      <entry key="M2" value="12.85681232578693" />
+      <entry key="M5" value="21.47770805011661" />
+      <entry key="M10" value="26.88871477865569" />
+      <entry key="M15" value="29.867918178971937" />
+      <entry key="M30" value="35.22463696775008" />
+      <entry key="H1" value="40.43936319066201" />
+      <entry key="H2" value="45.26867690388088" />
+      <entry key="H4" value="58.0408528910022" />
+      <entry key="D1" value="145.4887344392067" />
+      <entry key="W1" value="189.05243683999882" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000019522703" />
+      <entry key="S10" value="1.0000441845035533" />
+      <entry key="S30" value="1.035352760132298" />
+      <entry key="S60" value="1.1880233155957758" />
+      <entry key="M2" value="1.4337713830768852" />
+      <entry key="M5" value="1.7774294030629516" />
+      <entry key="M10" value="2.4212257685473246" />
+      <entry key="M15" value="3.137973629739931" />
+      <entry key="M30" value="4.663955271691892" />
+      <entry key="H1" value="6.0063927566825" />
+      <entry key="H2" value="6.904505052657187" />
+      <entry key="H4" value="7.425010740173308" />
+      <entry key="D1" value="7.900144705868365" />
+      <entry key="W1" value="7.985633124094692" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9890151822482088" />
-      <entry key="S2" value="1.512815902230638" />
-      <entry key="S5" value="5.699044455577105" />
-      <entry key="S10" value="13.242860363318647" />
-      <entry key="S30" value="35.44816720071378" />
-      <entry key="S60" value="53.639044344331026" />
-      <entry key="M2" value="73.66084394239196" />
-      <entry key="M5" value="102.40552183859023" />
-      <entry key="M10" value="119.62577786732729" />
-      <entry key="M15" value="126.80759366152658" />
-      <entry key="M30" value="134.88855681495568" />
-      <entry key="H1" value="139.30652337478512" />
-      <entry key="H2" value="141.61763523718773" />
-      <entry key="H4" value="142.79975796461494" />
-      <entry key="D1" value="143.79868816709137" />
-      <entry key="W1" value="143.97120985437783" />
+      <entry key="MS100" value="0.012516716837337842" />
+      <entry key="MS500" value="0.41652109636309764" />
+      <entry key="S2" value="0.9115306475762225" />
+      <entry key="S5" value="1.4177779203818954" />
+      <entry key="S10" value="2.1612097523934852" />
+      <entry key="S30" value="4.27651012939591" />
+      <entry key="S60" value="7.843855384651242" />
+      <entry key="M2" value="14.249671772930618" />
+      <entry key="M5" value="23.228466674009088" />
+      <entry key="M10" value="29.290418751334364" />
+      <entry key="M15" value="32.98939591725181" />
+      <entry key="M30" value="39.87702351362906" />
+      <entry key="H1" value="46.43857810711913" />
+      <entry key="H2" value="52.169130171359946" />
+      <entry key="H4" value="65.46369212696807" />
+      <entry key="D1" value="153.3884817768889" />
+      <entry key="W1" value="197.03801162741925" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -108,30 +113,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Test-IncrementalSystem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
-    "unity.profiler.toolWindow.autoShown": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Test-BulletHell&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;,
+    &quot;unity.profiler.toolWindow.autoShown&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../../BuildTest\JustShapeIncremental.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\BuildTest" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\Unity\Unity Installs Location\6000.3.10f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;E:\Unity\Unity Projects\GitHub\Shapes-Infinity\JustShapeIncremental&quot; -debugCodeOptimization" />
@@ -177,6 +192,9 @@
       <workItem from="1794121569224" duration="538000" />
       <workItem from="1794129575470" duration="2406000" />
       <workItem from="1794306282750" duration="15892000" />
+      <workItem from="1795693397256" duration="17802000" />
+      <workItem from="1795769244723" duration="486000" />
+      <workItem from="1795770476231" duration="9782000" />
     </task>
     <servers />
   </component>

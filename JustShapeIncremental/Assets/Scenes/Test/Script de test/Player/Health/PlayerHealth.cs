@@ -18,7 +18,6 @@ public class PlayerHealth : MonoBehaviour
     private PlayerStateTest playerState;
     private PlayerInvulnerability invulnerability;
     private PlayerKnockback knockback;
-    private PlayerDamageFeedback damageFeedback;
 
     public float MaxHealth => maxHealth;
     public float CurrentHealth { get; private set; }
@@ -27,14 +26,15 @@ public class PlayerHealth : MonoBehaviour
     public bool IsInvulnerable => invulnerability.IsInvulnerable;
 
     public event Action<float, float> OnHealthChanged;
-    public event Action OnDeath;
+    
+    public static event Action OnPlayerHit;
+    public static event Action OnPlayerDeath; // rajouter le mot clé event fait que les autres script peuvent uniquement s'abonner à cet Action et pas la modifier où l'appeller 
 
     private void Awake()
     {
         playerState = GetComponent<PlayerStateTest>();
         invulnerability = GetComponent<PlayerInvulnerability>();
         knockback = GetComponent<PlayerKnockback>();
-        damageFeedback = GetComponent<PlayerDamageFeedback>();
 
         maxHealth = Mathf.Max(1f, maxHealth);
         CurrentHealth = maxHealth;
@@ -55,6 +55,8 @@ public class PlayerHealth : MonoBehaviour
 
     public bool TakeDamage(float damage, Vector2 damageSourcePosition)
     {
+        //Debug.Log($"Invulnerable : {IsInvulnerable}");
+        
         if (IsDead ||
             IsInvulnerable ||
             playerState.IsDashing ||
@@ -68,11 +70,7 @@ public class PlayerHealth : MonoBehaviour
         UpdateHealthVisual();
         OnHealthChanged?.Invoke(CurrentHealth, MaxHealth);
 
-        damageFeedback.PlayDamageFeedback();
-
-        Debug.Log(
-            $"Player took {damage} damage. Health: {CurrentHealth}/{MaxHealth}"
-        );
+        //Debug.Log($"Player took {damage} damage. Health: {CurrentHealth}/{MaxHealth}");
 
         if (CurrentHealth <= 0f)
         {
@@ -80,6 +78,7 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
+            OnPlayerHit?.Invoke();
             knockback.Apply(damageSourcePosition);
             invulnerability.StartInvulnerability();
         }
@@ -109,10 +108,7 @@ public class PlayerHealth : MonoBehaviour
         UpdateHealthVisual();
         OnHealthChanged?.Invoke(CurrentHealth, MaxHealth);
 
-        Debug.Log(
-            $"Player healed {CurrentHealth - previousHealth}. " +
-            $"Health: {CurrentHealth}/{MaxHealth}"
-        );
+        //Debug.Log($"Player healed {CurrentHealth - previousHealth}. " + $"Health: {CurrentHealth}/{MaxHealth}");
 
         return true;
     }
@@ -143,9 +139,9 @@ public class PlayerHealth : MonoBehaviour
         knockback.Cancel();
         invulnerability.CancelInvulnerability();
 
-        Debug.Log("Player died!");
+        //Debug.Log("Player died!");
 
-        OnDeath?.Invoke();
+        OnPlayerDeath?.Invoke();
     }
 
     private void UpdateHealthVisual()

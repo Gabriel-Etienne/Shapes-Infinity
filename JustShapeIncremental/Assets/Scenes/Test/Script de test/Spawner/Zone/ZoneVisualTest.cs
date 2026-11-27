@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class ZoneVisualTest : MonoBehaviour
+public class ZoneVisualTest : MonoBehaviour , IPoolable
 {
     [Header("References")]
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -227,7 +227,7 @@ public class ZoneVisualTest : MonoBehaviour
 
             hasActivatedDamage = true;
 
-            Debug.Log("Zone damage activated!");
+            //Debug.Log("Zone damage activated!");
         }
 
         if (progress >= 1f)
@@ -254,7 +254,7 @@ public class ZoneVisualTest : MonoBehaviour
         spriteRenderer.color = color;
     }
 
-    private void ReturnToPool()
+    public void ReturnToPool()
     {
         isVisible = false;
 

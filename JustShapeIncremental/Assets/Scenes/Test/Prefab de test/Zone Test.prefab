@@ -299,9 +299,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   colorChangeProgress: 0.2
-  damageActivationProgress: 0.25
   zoneColor: {r: 1, g: 0, b: 0.39215687, a: 1}
   initialAlpha: 0.2
+  damageActivationProgress: 0.25
 --- !u!1 &7783381321799155459
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,4 +395,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DamageOnTrigger2D
   damage: 30
   isDamageActive: 1
-  destroyOnHit: 0
+  hitBehavior: 0

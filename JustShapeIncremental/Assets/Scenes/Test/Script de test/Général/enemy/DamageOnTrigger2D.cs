@@ -1,18 +1,21 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
 public class DamageOnTrigger2D : MonoBehaviour
 {
+    public enum HitBehavior
+    {
+        DoNothing,
+        Destroy,
+        ReturnToPool
+    }
+
     [Header("Damage Settings")]
     [SerializeField] private float damage = 10f;
     [SerializeField] private bool isDamageActive = true;
 
-    [Header("Collision Settings")]
-    [SerializeField] private bool destroyOnHit = true;
-
-    private bool hasHit;
-
-    public bool IsDamageActive => isDamageActive;
+    [Header("Hit Behavior")]
+    [SerializeField] private HitBehavior hitBehavior =
+        HitBehavior.ReturnToPool;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -26,10 +29,11 @@ public class DamageOnTrigger2D : MonoBehaviour
 
     private void TryDamage(Collider2D other)
     {
-        if (!isDamageActive || hasHit)
+        if (!isDamageActive)
             return;
 
-        PlayerHealth playerHealth = other.GetComponentInParent<PlayerHealth>();
+        PlayerHealth playerHealth =
+            other.GetComponentInParent<PlayerHealth>();
 
         if (playerHealth == null)
             return;
@@ -42,18 +46,46 @@ public class DamageOnTrigger2D : MonoBehaviour
         if (!damageApplied)
             return;
 
-        hasHit = true;
+        HandleHit();
+    }
 
-        Debug.Log($"Damage zone hit player for {damage} damage!");
+    private void HandleHit()
+    {
+        switch (hitBehavior)
+        {
+            case HitBehavior.DoNothing:
+                break;
 
-        if (destroyOnHit)
-            Destroy(gameObject);
+            case HitBehavior.Destroy:
+                Destroy(transform.root.gameObject);
+                break;
+
+            case HitBehavior.ReturnToPool:
+            {
+                IPoolable poolable =
+                    transform.root.GetComponent<IPoolable>();
+
+                if (poolable != null)
+                {
+                    poolable.ReturnToPool();
+                }
+                else
+                {
+                    Debug.LogError(
+                        $"{transform.root.name} ne possède pas " +
+                        "de composant implémentant IPoolable.",
+                        this
+                    );
+                }
+
+                break;
+            }
+        }
     }
 
     public void EnableDamage()
     {
         isDamageActive = true;
-        hasHit = false;
     }
 
     public void DisableDamage()
@@ -64,8 +96,5 @@ public class DamageOnTrigger2D : MonoBehaviour
     public void SetDamageActive(bool active)
     {
         isDamageActive = active;
-
-        if (active)
-            hasHit = false;
     }
 }

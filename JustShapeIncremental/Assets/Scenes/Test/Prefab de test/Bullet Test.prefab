@@ -167,7 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DamageOnTrigger2D
   damage: 10
   isDamageActive: 1
-  destroyOnHit: 1
+  destroyOnHit: 0
 --- !u!1 &7622681726284288980
 GameObject:
   m_ObjectHideFlags: 0
