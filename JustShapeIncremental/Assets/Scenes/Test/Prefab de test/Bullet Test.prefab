@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3733951453667514668}
   - component: {fileID: 1782798966067251139}
+  - component: {fileID: 2138584865375903912}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -152,6 +153,21 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &2138584865375903912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453544453609512540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487aed9186835974fa345c6a1b7e3722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageOnTrigger2D
+  damage: 10
+  isDamageActive: 1
+  destroyOnHit: 1
 --- !u!1 &7622681726284288980
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393e790eed7a8ce409f21a9e76e657d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletMovementTest
-  moveSpeed: 5
 --- !u!1 &7730609817179835877
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,11 +19,17 @@ public class PlayerMovementTest : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (playerState != null && playerState.IsDashing)
+        // Ne pas modifier la vitesse pendant un dash,
+        // un knockback ou lorsque le joueur est mort.
+        if (!playerState.CanChangeVelocity ||
+            playerState.IsDashing ||
+            playerState.IsDead)
+        {
             return;
+        }
 
-        Vector2 movement = playerInput.Movement;
+        Vector2 movement = playerInput.Movement.normalized;
 
-        rb.linearVelocity = movement.normalized * moveSpeed;
+        rb.linearVelocity = movement * moveSpeed;
     }
 }

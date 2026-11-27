@@ -5,6 +5,7 @@ public class ZoneVisualTest : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private DamageOnTrigger2D damageTrigger;
 
     [Header("Screen Shake")]
     [SerializeField] private float shakeMagnitude = 0.15f;
@@ -45,8 +46,11 @@ public class ZoneVisualTest : MonoBehaviour
     [SerializeField, Range(0f, 1f)]
     private float initialAlpha = 0.2f;
 
+    [Header("Damage Settings")]
+    [SerializeField, Range(0f, 1f)]
+    private float damageActivationProgress = 0.7f;
+
     private ZonePoolTest pool;
-    private CameraShakeTest cameraShake;
 
     private float timer;
 
@@ -54,16 +58,40 @@ public class ZoneVisualTest : MonoBehaviour
     private bool isGrowing;
     private bool isEndBouncing;
     private bool isVisible;
+
     private bool hasChangedColor;
+    private bool hasActivatedDamage;
 
     private Vector3 finalScale;
+
+    private void Awake()
+    {
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (damageTrigger == null)
+            damageTrigger = GetComponent<DamageOnTrigger2D>();
+
+        // Sécurité : une zone ne doit jamais infliger
+        // de dégâts avant son activation.
+        damageTrigger?.DisableDamage();
+    }
+
+    private void OnEnable()
+    {
+        damageTrigger?.DisableDamage();
+    }
+
+    private void OnDisable()
+    {
+        damageTrigger?.DisableDamage();
+    }
 
     public void Initialize(
         ZonePoolTest zonePool,
         CameraShakeTest shakeCamera)
     {
         pool = zonePool;
-        cameraShake = shakeCamera;
 
         timer = 0f;
 
@@ -73,6 +101,10 @@ public class ZoneVisualTest : MonoBehaviour
         isVisible = false;
 
         hasChangedColor = false;
+        hasActivatedDamage = false;
+
+        // Toujours désactiver les dégâts au spawn.
+        damageTrigger?.DisableDamage();
 
         finalScale = Vector3.one * maxScale;
 
@@ -106,9 +138,7 @@ public class ZoneVisualTest : MonoBehaviour
             timer += Time.deltaTime;
 
             if (timer >= visibleDuration)
-            {
                 ReturnToPool();
-            }
         }
     }
 
@@ -176,16 +206,28 @@ public class ZoneVisualTest : MonoBehaviour
 
         transform.localScale = Vector3.one * currentScale;
 
+        // Changement de couleur.
         if (!hasChangedColor && progress >= colorChangeProgress)
         {
             SetAlpha(1f);
 
-            if (cameraShake != null)
-            {
-                cameraShake.Shake(shakeDuration, shakeMagnitude);
-            }
+            CameraShakeTest.TriggerShake?.Invoke(
+                shakeDuration,
+                shakeMagnitude
+            );
 
             hasChangedColor = true;
+        }
+
+        // Activation des dégâts.
+        if (!hasActivatedDamage &&
+            progress >= damageActivationProgress)
+        {
+            damageTrigger?.EnableDamage();
+
+            hasActivatedDamage = true;
+
+            Debug.Log("Zone damage activated!");
         }
 
         if (progress >= 1f)
@@ -215,6 +257,9 @@ public class ZoneVisualTest : MonoBehaviour
     private void ReturnToPool()
     {
         isVisible = false;
+
+        // Sécurité avant de remettre la zone dans le pool.
+        damageTrigger?.DisableDamage();
 
         if (pool != null)
         {

@@ -41,6 +41,9 @@ public class PlayerDashTest : MonoBehaviour
 
     private void Update()
     {
+        if (playerState.IsDead)
+            return;
+
         Vector2 movement = playerInput.Movement;
 
         if (movement != Vector2.zero)
@@ -63,8 +66,13 @@ public class PlayerDashTest : MonoBehaviour
 
     private void Dash()
     {
-        if (playerState.IsDashing || cooldownTimer > 0f)
+        if (playerState.IsDashing ||
+            !playerState.CanChangeVelocity ||
+            playerState.IsDead ||
+            cooldownTimer > 0f)
+        {
             return;
+        }
 
         playerState.IsDashing = true;
 

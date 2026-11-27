@@ -15,6 +15,11 @@ GameObject:
   - component: {fileID: 8591777725670192156}
   - component: {fileID: 4485614364262928237}
   - component: {fileID: 855835926204190921}
+  - component: {fileID: 5055585514725868598}
+  - component: {fileID: 5581861950107836602}
+  - component: {fileID: 3114306846985940215}
+  - component: {fileID: 7979459423533410455}
+  - component: {fileID: 3351476355743309990}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -134,6 +139,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRotationTest
   normalRotationSpeed: 1000
+--- !u!114 &5055585514725868598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950426005678099734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88353321ef208e7409f728f8d0f1428b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 100
+  healthVisual: {fileID: 1956615741619848147}
+--- !u!114 &5581861950107836602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950426005678099734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6317cc74334a3454e9b3b65bec6a9a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInvulnerability
+  invulnerabilityDuration: 1
+--- !u!114 &3114306846985940215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950426005678099734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5797119d85b1da42a3277207fea3fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerKnockback
+  knockbackForce: 15
+  knockbackDuration: 0.2
+--- !u!114 &7979459423533410455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950426005678099734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd12697cbd516d14aa7122ff5607864f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDamageFeedback
+  shakeDuration: 0.2
+  shakeMagnitude: 0.2
+--- !u!114 &3351476355743309990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950426005678099734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0abd7a81bc2ac49aa0c6b2b6afa841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBlink
+  spriteRenderer: {fileID: 1704169056059976636}
+  blinkInterval: 0.05
+  blinkAlpha: 0.2
 --- !u!1 &6256354819876215051
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,6 +304,7 @@ GameObject:
   - component: {fileID: 6405116563180106054}
   - component: {fileID: 1704169056059976636}
   - component: {fileID: 3550649300069917339}
+  - component: {fileID: 1956615741619848147}
   m_Layer: 0
   m_Name: Visuel
   m_TagString: Untagged
@@ -277,7 +353,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 7b88f0bff40b42449a6616dfc98ee0ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -298,7 +374,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0.96314764, b: 1, a: 1}
@@ -332,6 +408,21 @@ MonoBehaviour:
   springFrequency: 18
   springDamping: 8
   movementThreshold: 0.05
+--- !u!114 &1956615741619848147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7853663671608828363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3bdb6b5996e1a4089e967c0ace6f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealthVisual
+  spriteRenderer: {fileID: 1704169056059976636}
+  animationDuration: 0.1
+  animationEase: 6
 --- !u!1 &8309556889089060571
 GameObject:
   m_ObjectHideFlags: 0

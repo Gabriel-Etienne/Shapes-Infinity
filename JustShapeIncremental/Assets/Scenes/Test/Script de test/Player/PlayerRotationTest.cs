@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(PlayerStateTest))]
 public class PlayerRotationTest : MonoBehaviour
 {
     [Header("Rotation Settings")]
@@ -17,25 +18,27 @@ public class PlayerRotationTest : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Verrouiller la rotation pendant le Dash
-        if (playerState != null && playerState.IsDashing)
+        // Ne pas tourner pendant le dash, le knockback ou la mort.
+        if (playerState.IsDashing ||
+            !playerState.CanChangeVelocity ||
+            playerState.IsDead)
+        {
+            return;
+        }
+
+        Vector2 velocity = rb.linearVelocity;
+
+        // Évite les rotations lorsque le joueur est presque immobile.
+        if (velocity.sqrMagnitude < 0.0025f)
             return;
 
-        Vector2 direction = rb.linearVelocity;
+        float targetAngle =
+            Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg;
 
-        // Ne pas tourner si le joueur ne bouge pas
-        if (direction.sqrMagnitude < 0.05f * 0.05f)
-            return;
+        float currentAngle = rb.rotation;
 
-        // Calculer l'angle de déplacement
-        float targetAngle = Mathf.Atan2(
-            direction.y,
-            direction.x
-        ) * Mathf.Rad2Deg;
-
-        // Rotation progressive
         float newAngle = Mathf.MoveTowardsAngle(
-            rb.rotation,
+            currentAngle,
             targetAngle,
             normalRotationSpeed * Time.fixedDeltaTime
         );
